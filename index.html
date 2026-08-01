@@ -1,38 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="google-site-verification" content="hGrDXzbuTAcW2JZymadCHOk4Mo06wmnPLh5FW9_YWTQ" />
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GameVerse Hub</title>
-<meta name="description" content="GameVerse Hub - Play PK365, Free Fire, PUBG Mobile and discover the best online games in one place.">
-<meta name="keywords" content="GameVerse Hub, PK365, Free Fire, PUBG Mobile, Online Games, Gaming">
-<meta name="author" content="Sajjad">
-<meta property="og:title" content="GameVerse Hub">
-<meta property="og:description" content="Play PK365, Free Fire, PUBG Mobile and discover the best online games in one place.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://sajjad92048.github.io/GameVerseHub/">
-<meta property="og:image" content="https://sajjad92048.github.io/GameVerseHub/favicon.png">
-<link rel="icon" type="image/png" href="favicon.png">
-<meta name="theme-color" content="#0d6efd">
-<meta name="robots" content="index, follow">
-<link rel="stylesheet" href="style.css">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJ14TTQ9T8"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-GJ14TTQ9T8');
+<meta name="google-site-verification" content="hGrDXzbuTAcW2JZymadCHOk4Mo06wmnPLh5FW9_YWTQ">
+
+<title>GameVerse Hub</title>
+
+<meta name="description" content="GameVerse Hub - Play PK365, Free Fire, PUBG Mobile, GTA 5, Minecraft, Roblox and discover the best online games.">
+
+<meta name="keywords" content="GameVerse Hub, PK365, Free Fire, PUBG Mobile, GTA 5, Roblox, Minecraft, COD Mobile, eFootball">
+
+<meta name="author" content="Sajjad">
+
+<meta property="og:title" content="GameVerse Hub">
+
+<meta property="og:description" content="Discover the best online and mobile games.">
+
+<meta property="og:type" content="website">
+
+<meta property="og:url" content="https://sajjad92048.github.io/GameVerseHub/">
+
+<meta property="og:image" content="https://sajjad92048.github.io/GameVerseHub/favicon.png">
+
+<meta name="theme-color" content="#0d6efd">
+
+<meta name="robots" content="index, follow">
+
+<link rel="icon" href="favicon.png">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GJ14TTQ9T8"></script>
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-GJ14TTQ9T8');
 </script>
+
 </head>
 
 <body>
+
 <div id="loader">
-    <h1>🎮 GameVerse Hub</h1>
-    <div class="search-box">
-    <input type="text" id="searchInput" placeholder="🔍 Search your favorite game..." onkeyup="searchGames()">
+<div class="spinner"></div>
+<p>Loading...</p>
+</div>
+
+<header class="hero">
+
+<h1>🎮 Welcome to <br>GameVerse Hub</h1>
+
+<p>Your Ultimate Mobile Gaming Website</p>
+
+<button onclick="showMessage()">Explore Games</button>
+
+<p id="result"></p>
+
+</header>
+<nav class="navbar">
+
+<div class="logo">
+🎮 GameVerse Hub
+</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="#games">Games</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+<div class="search-box">
+<input type="text"
+id="searchInput"
+placeholder="🔍 Search your favorite game..."
+onkeyup="searchGames()">
 </div>
 
 <div class="categories">
@@ -49,158 +101,28 @@
 
 <a href="minecraft.html" class="category-btn">Adventure</a>
 
-</div>
+<a href="roblox.html" class="category-btn">Sandbox</a>
 
 </div>
-    <input type="text" id="searchInput" placeholder="🔍 Search your favorite game..." onkeyup="searchGames()">
-</div>
-    <div class="spinner"></div>
-    <p>Loading...</p>
-</div>
-<header class="hero">
-
-<h1>🎮 Welcome to <br>GameVerse Hub</h1>
-
-<p>Your Ultimate Mobile Gaming</p>
-
-<button onclick="showMessage()">Click Me</button>
-
-<p id="result"></p>
-
-</header>
-
-<nav class="navbar">
-
-<div class="logo">
-🎮 GameVerse Hub
-</div>
-
-<ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="#games">Games</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
-</ul>
-
-</ul>
-
-</nav>
 
 <section class="games" id="games">
-  <h1>
-🎮<br>
-GameVerse Hub
-</h1>
 
-<!-- PK365 -->
-
-<div class="game-card">
-
-<h3>PK365 Game</h3>
-
-<img src="pk365.jpg" alt="PK365">
-
-<p>Play & Earn Real Money</p>
-
-<a href="pk365.html" class="play-btn">Play Now</a>
-</div>
-<!-- Free Fire -->
-
-<div class="game-card">
-
-<h3>Free Fire</h3>
-
-<img src="freefire.jpg" alt="Free Fire">
-<p>Battle Royale Action Game</p>
-
-<a href="freefire.html" class="play-btn">Play Now</a>
-</div>
-
-<!-- PUBG Mobile -->
-
-<div class="game-card">
-
-<h3>PUBG Mobile</h3>
-<img src="pubg.jpg" alt="PUBG Mobile">
-
-<p>Worldwide Multiplayer Game</p>
-<a href="pubg.html" class="play-btn">Play Now</a>
-
-</div>
-<div class="game-card">
-  <h3>GTA 5</h3>
-
- <img src="gta5.jpg" alt="GTA 5">
-
-  <p>Experience the open-world action and adventure of Grand Theft Auto V.</p>
-
-  <a href="gta5.html" class="play-btn">Play Now</a>
-</div>
-<div class="game-card">
-    <img src="efootball.jpg" alt="eFootball">
-    <h3>eFootball</h3>
-    <p>Experience realistic football gameplay with official clubs and online matches.</p>
-    <a href="efootball.html" class="play-btn">Read More</a>
-</div>
-<div class="game-card">
-    <img src="codm.jpg" alt="Call of Duty Mobile">
-    <h3>Call of Duty: Mobile</h3>
-    <p>Experience exciting multiplayer battles and Battle Royale action.</p>
-    <a href="codm.html" class="play-btn">Read More</a>
-</div>
-<div class="game-card">
-    <img src="s9game.jpg" alt="S9 Game">
-    <h3>S9 Game</h3>
-    <p>Explore the S9 Game platform and learn about its features.</p>
-    <a href="s9game.html" class="play-btn">Read More</a>
-</div>
-<div class="game-card">
-    <img src="minecraft.jpg" alt="Minecraft">
-    <h3>Minecraft</h3>
-    <p>Explore, build, survive, and create your own world.</p>
-    <a href="minecraft.html" class="play-btn">Read More</a>
-</div>
-<div class="game-card">
-    <img src="clashofclans.jpg" alt="Clash of Clans">
-    <h3>Clash of Clans</h3>
-    <p>Build your village, train troops, and battle players worldwide.</p>
-    <a href="clashofclans.html" class="play-btn">Read More</a>
-</div>
-<div class="game-card">
-    <img src="roblox.jpg" alt="Roblox">
-    <h3>Roblox</h3>
-    <p>Create, play, and explore millions of games with friends.</p>
-    <a href="roblox.html" class="play-btn">Read More</a>
-</div>
-</section>
-
-<!-- Search Section -->
-
-<section class="search-section">
-
-<input
-type="text"
-id="searchInput"
-placeholder="Search Games..."
-onkeyup="searchGames()">
-
-</section>
-<!-- Footer -->
+<h2>🔥 Featured Games</h2>
 <footer>
-    <p>© 2026 GameVerse Hub. All Rights Reserved.</p>
 
-    <p>Made with ❤️ by GameVerse Hub</p>
+<p>© 2026 GameVerse Hub. All Rights Reserved.</p>
 
-    <a href="about.html">About</a> |
-    <a href="contact.html">Contact</a> |
-    <a href="privacy.html">Privacy Policy</a> |
-    <a href="terms.html">Terms & Conditions</a>
+<p>Made with ❤️ by Sajjad</p>
+
+<a href="about.html">About</a> |
+<a href="contact.html">Contact</a> |
+<a href="privacy.html">Privacy Policy</a> |
+<a href="terms.html">Terms & Conditions</a>
+
 </footer>
-</footer>
-
-<!-- JavaScript -->
 
 <script src="script.js"></script>
+
 <script>
 function searchGames() {
     let input = document.getElementById("searchInput").value.toLowerCase();
@@ -216,6 +138,14 @@ function searchGames() {
         }
     }
 }
+
+window.onload = function () {
+    let loader = document.getElementById("loader");
+    if (loader) {
+        loader.style.display = "none";
+    }
+};
 </script>
+
 </body>
 </html>
