@@ -348,3 +348,37 @@ color:#000;
     background:#ffffff;
     color:#000;
 }
+/* Trending Games */
+
+.trending-games{
+    margin:50px 20px;
+    text-align:center;
+}
+
+.trending-games h2{
+    color:#00ff99;
+    margin-bottom:20px;
+}
+
+.trending-grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+.trending-grid a{
+    text-decoration:none;
+    background:#1f2937;
+    color:white;
+    padding:12px 20px;
+    border-radius:30px;
+    transition:.3s;
+    font-weight:bold;
+}
+
+.trending-grid a:hover{
+    background:#00ff99;
+    color:#000;
+    transform:scale(1.05);
+}
